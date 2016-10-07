@@ -1,0 +1,153 @@
+/* CSS Document */
+@font-face {
+    font-family: 'oswald-webfont';
+    src: url('../resources/oswald-webfont.eot');
+	src: url('../resources/oswald-webfont.eot?#iefix') format('eot'),
+         url('../resources/oswald-webfont.svg') format('svg'),
+         url('../resources/oswald-webfont.woff') format('woff'),
+         url('../resources/oswald-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+font-family: 'oswald-webfont';
+}
+
+.header{
+	z-index: 4;
+	position: fixed;
+	left: 0; top: 0;
+	width: 100%; height: 50px;
+	box-shadow: 6px 5px 7px #ACACAC;
+	
+	opacity:0.90; filter:alpha(opacity=90); /* For IE8 and earlier */
+	
+	background-color: #004080;/*#005EBB;*/
+	color: #530000;
+	font-family: "Segoe UI Symbol";
+	font-size:1.2em;
+}
+
+.header{
+	z-index: 4;
+	position: fixed;
+	left: 0px; top: 0px;
+	width: 100%; height: 50px;
+	border:1px solid #000;
+	box-shadow: 0px 0px 5px 1px #0A0A0A;
+	opacity:0.95; filter:alpha(opacity=95); /* For IE8 and earlier */
+	background-color:#191919;/*#005EBB;*/
+	color: #530000;
+	font-family: 'oswald-webfont';
+}
+
+
+#logo{
+	left:90px;top:1px;
+	position:absolute; 
+	height:60px; width:60px;
+	background:url(../images/Logo.png);
+	background-size:cover;
+	cursor:pointer;
+	box-shadow:0px 0px 4px 2px #202020;	
+}
+
+#logo:hover{
+	box-shadow:0px 0px 4px 1px #459396;	
+}
+
+.header a{
+	color:inherit;
+	text-decoration:none;
+}
+
+.header_sections{
+	position:absolute;
+	width:70px;
+	height:38px;
+	border-right:1px solid #000;
+	cursor:pointer;
+	box-shadow:0px 0px 20px 1px #000 inset ;
+	font-size:1.2em;
+	color:#7f7f83;
+	text-align:center;
+	padding-top:12px;
+	font-size:1.1em;
+}
+
+.header_sections:hover{
+	box-shadow:0px 0px 5px 1px #000;
+}
+
+
+input[type=text]{
+	z-index:4;
+	width:400px;
+	height:40px;
+	font-family: 'oswald-webfont';
+	text-align:center;
+	font-size:1.2em;
+	color: #515151;
+	border: 1px solid #d1d1d1;
+	background-color: #FFF;
+	border-radius:3px;
+	cursor:pointer;
+
+}
+
+input[type=button]{
+	z-index:4;
+	width:170px;
+	height:43px;
+	text-align:center;
+	font-size:1.2em;
+	border: 1px solid #666;
+	border-radius:4px;
+  	background-color: #CB2834;
+	color:#FFF;
+	cursor:pointer;
+	font-family: 'oswald-webfont';
+}
+
+input[type=button]:hover{
+	-moz-box-shadow: 0 0 5px #009552;
+		-webkit-box-shadow: 0 0 5px #009552;
+		box-shadow: 0 0 5px #009552;
+}
+
+.bg_holder{
+	z-index:3;
+	opacity:0.80; filter:alpha(opacity=80); /* For IE8 and earlier */
+	background-color:#004080;
+	height:70px;
+	width:630px;
+	border-radius:2px;
+	border: 1px solid #00376F;
+}
+
+#footer2{
+	background-color:#191919;
+	position:absolute;
+	bottom:0px; right:0px;
+	color:#79797D;
+	padding:10px;
+	opacity:0.95; filter:alpha(opacity=95);
+}
+#footer2 a{
+	color: #79797D;font-size:1.2em;
+}
+
+#footer{
+	background-color: #191919;
+	color:#79797D;
+	padding:10px;
+	opacity:0.95; filter:alpha(opacity=95);
+	float:right;
+}
+
+#footer a{
+font-family: 'oswald-webfont';
+	color:#79797D;font-size:1.2em;+
+	
++}
